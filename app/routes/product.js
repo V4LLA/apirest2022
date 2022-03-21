@@ -22,5 +22,3 @@ router.put('/:id', function(req, res) {
 })
 //url:puerto/api/clientes
 module.exports = router
-
-
