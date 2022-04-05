@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+</head>    
+    <div id="product"><!--Campo para ingresar un nuevo producto a la base de datos-->
+        <div id="detproduct"></div>
+        <form id="frmproduct">
+            <label for="txtnameP">Nombre
+                <input type="text" id="txtnameP"> 
+            </label><br><br>
+
+            <label for="txtcost">Precio 
+                <input type="number" id="txtcost">
+            </label><br><br>
+
+            <label for="txtquantity">Cantidad 
+                <input type="number" id="txtquantity"> 
+            </label><br><br>
+
+            <button type="button" id="btnaddP">Agregar Producto</button>
+
+            <button type="reset" id="btnresetP">Cancelar</button>
+        </form>
+    </div> <br>
+  
+    <div id="app">
+    <button type="button" id="btncargarP">Cargar Producto</button>
+    <select name="" id="slproduct"></select> 
+    <label for="txtcantidad">
+        <input type="number" id="txtcantidad">
+    </label>
+    <button type="button" id="shoppingCart">Agregar a Carrito</button> <br><br>
+    <button type="button" id="factura">Agregar Factura</button>
+     
+        
+    </div> 
+ <hr>
+  <br>
+
+    <div id="client">
+        <div id="detclient"></div>
+           <form id="frmclient">
+            <label for="txtname">Nombre
+                <input type="text" id="txtnameC"> 
+            </label><br><br> 
+
+            <label for="rfc"> RFC
+                <input type="text" id="txtrfc"> 
+            </label><br><br>
+
+            <label for="zipcode"> ZipCode
+                <input type= "text" id="txtzip"> 
+            </label><br><br>
+
+            <button type="button" id="btnaddC">Agregar Cliente</button> <!--Agregar los clientes a la bd-->
+
+            <button type="reset" id="btnresetC">Cancelar</button>
+           </form>
+    </div><br>
+
+        <button type="button" id="btncargarC">Cargar Clientes</button>  <!--Formulario para insertar datos de un cliente-->
+        <select name="" id="slclient"></select><br><br>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 
